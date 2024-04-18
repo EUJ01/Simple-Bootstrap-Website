@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link rel="stylesheet" href="style.css">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg" style="background-color: #e3f2fd;">
+    <div class="container-fluid">
+
+      <a class="navbar-brand">
+        <img src="image/logo.png" alt="RWB Logo" width="80" height="55">
+        EUJ's Iconic Collection</a>
+
+      <!-- this button appears when the screen is too small -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="btn btn-outline-info me-2" aria-current="page" href="#">Home</a>
+          <a class="btn btn-outline-info me-2" href="https://eujs-hotwheels-collection.netlify.app"
+            target="_blank">Other Collections</a>
+          <a class="btn btn-outline-info me-2" href="https://eujs-simple-form.netlify.app" target="_blank">Login</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <h1>Meet The Legends</h1>
+
+  <!-- carousel -->
+  <div class="container my-5">
+    <div id="carouselExample" class="carousel slide">
+      <div class="carousel-inner">
+        <div class="carousel-item">
+          <img src="image/4.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="image/5.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item active">
+          <img src="image/6.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="image/8.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="image/9.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item active">
+          <img src="image/10.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="image/11.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+
+  <h1>Our Icons</h1>
+
+  <!-- cards -->
+  <div class="container d-flex justify-content-center mx-auto gy-5 row row-cols-lg-4 row-cols-md-2 row-cols-sm-1 my-3">
+
+    <div class="col">
+      <div class="card" style="width: 18rem;">
+        <img src="/image/c1.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Honda Civic Type R</h5>
+          <p class="card-text">Built for the race track</p>
+          <a href="#" class="btn btn-primary">Click to buy</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card" style="width: 18rem;">
+        <img src="/image/c2.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Mercedes AMG GT</h5>
+          <p class="card-text">Class and performance unleashed</p>
+          <a href="#" class="btn btn-primary">Click to buy</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card" style="width: 18rem;">
+        <img src="/image/c3.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Aston Martin DB</h5>
+          <p class="card-text">Get the feel of 007</p>
+          <a href="#" class="btn btn-primary">Click to buy</a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="col">
+
+      <div class="card" style="width: 18rem;">
+        <img src="/image/c4.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Mclaren P1</h5>
+          <p class="card-text">Hybrid Hypercar Monster</p>
+          <a href="#" class="btn btn-primary">Click to buy</a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="col">
+      <div class="card" style="width: 18rem;">
+        <img src="/image/c5.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Dodge Hellcat</h5>
+          <p class="card-text">The demon from underground</p>
+          <a href="#" class="btn btn-primary">Click to buy</a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="col">
+      <div class="card" style="width: 18rem;">
+        <img src="/image/c6.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Mini Cooper</h5>
+          <p class="card-text">For those tight spaces</p>
+          <a href="#" class="btn btn-primary">Click to buy</a>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- quote -->
+  <div class="container">
+    <div class="card">
+      <div class="card-header">
+        Quote
+      </div>
+      <div class="card-body">
+        <blockquote class="blockquote mb-0">
+          <p>Legends aren't born, they are made</p>
+          <footer class="blockquote-footer">Lewis Hamilton</footer>
+        </blockquote>
+      </div>
+    </div>
+  </div>
+
+  <!-- footer -->
+  <div class="container-fluid">
+    <hr>
+    <div class="footer d-flex justify-content-between mx-4">
+      <p>
+        <img src="image/logo.png" alt="RWB Logo" width="80" height="55">
+        EUJ's webbie, Inc
+      </p>
+      <p>742 Evergreen Terrace<br>
+        Springfield, State of Illinois, Vinland<br>
+        Postal Code: 01029<br>
+        
+        Email: john@hotmail.com</p>
+      <a href="https://github.com/EUJ01" target="_blank"><img style="height: 40px;" src="image/git.png"
+          alt="github.png"></a>
+    </div>
+  </div>
+
+
+
+  <!-- js -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
